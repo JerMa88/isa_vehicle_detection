@@ -1,8 +1,8 @@
-README
-Overview
+# README
+### Overview
 This repository contains a project for vehicle detection using YOLOv5. The project includes training a custom YOLOv5 model by fine-tuning it on a specific dataset and running the detection algorithm on video files.
 
-Training by Fine-Tuning YOLOv5
+### Training by Fine-Tuning YOLOv5
 Prerequisites
 Python 3.6+
 PyTorch
@@ -40,7 +40,7 @@ Run the training command:
 
 ```python train.py --img 640 --batch 16 --epochs 50 --data custom_dataset.yaml --weights yolov5s.pt```
 
-Running the Detection Algorithm
+### Running the Detection Algorithm
 Prerequisites
 Python 3.6+
 PyTorch
@@ -58,7 +58,7 @@ The script reads a video file frame by frame, processes each frame using the YOL
 
 The script processes each frame, detects objects, and draws bounding boxes with different colors based on the class of the detected object.
 
-Conclusion
+### Conclusion
 This project demonstrates how to fine-tune a YOLOv5 model for custom object detection and run the detection algorithm on video files. The script processes each frame in real-time, displays the processing time, and saves the processed video with detected bounding boxes.
 
  
