@@ -40,6 +40,9 @@ Run the training command:
 
 ```python train.py --img 640 --batch 16 --epochs 50 --data custom_dataset.yaml --weights yolov5s.pt```
 
+With training curve
+![image](./Screenshot 2024-10-06 at 12.11.14.png)
+
 5. data source:
    https://app.roboflow.com/hackathon-0ugtu/new-custom-dataset/2
 
