@@ -40,6 +40,9 @@ Run the training command:
 
 ```python train.py --img 640 --batch 16 --epochs 50 --data custom_dataset.yaml --weights yolov5s.pt```
 
+5. data source:
+   https://app.roboflow.com/hackathon-0ugtu/new-custom-dataset/2
+
 ### Running the Detection Algorithm
 Prerequisites
 Python 3.6+
